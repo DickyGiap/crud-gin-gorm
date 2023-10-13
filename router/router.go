@@ -4,6 +4,8 @@ import (
 	"golang-crud-gin/controller"
 	"net/http"
 
+	_ "golang-crud-gin/docs"
+
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
